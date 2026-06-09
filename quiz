@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Água Consciente no Campo</title>
+    
+    <style>
+        body {
+            background-color: #eef7f2; /* Verde bem claro de fundo (sustentabilidade) */
+            color: #2c3e50;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .quiz-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .tela {
+            display: none; /* Esconde todas as telas por padrão */
+        }
+
+        .tela.ativo {
+            display: block; /* Mostra apenas a tela que tiver a classe 'ativo' */
+        }
+
+        h1 {
+            color: #1b4d3e; /* Verde escuro floresta */
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #1b4d3e;
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+        }
+
+        .progresso {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .container-botoes {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: #3498db; /* Azul água */
+            color: white;
+            border: none;
+            padding: 14px 20px;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
